@@ -19,7 +19,7 @@ In `templ_entry.html`:
 Example
 -------
 
-Have a look at [exampler](https://stisa.space/exampler) example output, or compile  
+Have a look at [exampler](http://stisa.space/exampler) example output, or compile  
 `exampler.nim` and run it inside [/test](test), with default args you will find output
 in `test/docs/`.
 
