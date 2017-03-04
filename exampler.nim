@@ -52,7 +52,7 @@ proc project(example_dir:string="examples"):Project =
   result.ex_dir = example_dir
   result.li = @[]
   for kind, path in walkDir(example_dir):
-    if kind == pcFile: result.li.add(example(path))
+    if kind == pcFile and path.splitfile.ext == ".nim": result.li.add(example(path))
 
 case arguments.len:
 of 0:
